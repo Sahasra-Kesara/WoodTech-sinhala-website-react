@@ -32,7 +32,7 @@ const FAQ = () => {
 
   return (
     <div className="p-8 mt-10">
-      <h2 className="text-4xl font-bold text-center text-gray-800 mb-8 font-maname">නිතර අසනු ලබන ප්‍රශ්න</h2>
+      <h2 className="text-4xl font-bold text-center text-indigo-800 mb-8 font-maname">නිතර අසනු ලබන ප්‍රශ්න</h2>
       <div className="max-w-2xl mx-auto space-y-4">
         {faqs.map((faq, index) => (
           <div
@@ -43,10 +43,10 @@ const FAQ = () => {
               onClick={() => toggleFAQ(index)}
               className="flex justify-between items-center cursor-pointer"
             >
-              <h3 className="text-xl font-semibold text-gray-700 font-maname">
+              <h3 className="text-xl font-semibold text-indigo-800 font-maname">
                 {faq.question}
               </h3>
-              <span className="text-gray-500 font-maname">
+              <span className="text-gray-500 font-maname text-bold text-2xl">
                 {open === index ? '-' : '+'}
               </span>
             </div>

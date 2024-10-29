@@ -7,11 +7,11 @@ const ShuffleHero = () => {
   return (
     <section className="w-full px-8 py-16 grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-6xl mx-auto mt-10">
       <div>
-        <span className="block mb-4 text-xs md:text-sm text-indigo-500 font-medium font-maname">
+        <span className="block mb-4 text-xs md:text-sm text-indigo-500 font-medium font-maname animate-pulse">
           හොඳම තත්ත්වයේ
         </span>
         <h3 className="text-4xl md:text-6xl font-semibold font-maname text-indigo-950">
-          තත්ත්ව නිර්මාණශීලීත්වය හමුවන තැන
+          නිර්මාණශීලීත්වය හමුවන තැන
         </h3>
         <p className="text-base md:text-lg text-slate-700 my-4 md:my-6 font-maname">
           දොරේ සිට ජනෙල් දක්වා සහ ඉන් ඔබ්බට, අපි ඔබේ නිවසේ සෑම අස්සක් මුල්ලක් නෑරම අලංකාරය හා ශක්තිය ගෙන එන කාලානුරූපී කොටස් නිර්මාණය කරමු

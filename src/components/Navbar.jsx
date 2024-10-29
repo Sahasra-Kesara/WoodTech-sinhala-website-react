@@ -26,14 +26,14 @@ const Navbar = () => {
   return (
     <nav className={`fixed top-0 left-0 w-full p-4 z-10 transition-all duration-300 ${scrolled ? 'bg-white shadow-lg' : 'bg-transparent'}`}>
       <div className="container mx-auto flex justify-between items-center">
-        <Link to="/" className="text-blue-600 text-2xl font-bold font-maname">
+        <Link to="/" className="text-blue-600 text-2xl font-bold font-maname animate-pulse">
           WoodTech
         </Link>
         
         {/* Hamburger menu for mobile */}
         <button 
           onClick={toggleMenu} 
-          className="text-blue-600 lg:hidden focus:outline-none"
+          className="text-blue-900 lg:hidden focus:outline-none"
           aria-label="Toggle menu"
         >
           <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -43,11 +43,11 @@ const Navbar = () => {
 
         {/* Links */}
         <div className={`hidden lg:flex lg:flex-row lg:space-x-6`}>
-          <Link to="/" className={`text-blue-600 py-2 block hover:text-gray-300 font-maname text-xl ${isActiveLink('/') ? 'font-bold' : ''}`}>වුඩ් ටෙක්</Link>
-          <Link to="/about" className={`text-blue-600 py-2 block hover:text-gray-300 font-maname text-xl ${isActiveLink('/about') ? 'font-bold' : ''}`}>විස්තර</Link>
-          <Link to="/services" className={`text-blue-600 py-2 block hover:text-gray-300 font-maname text-xl ${isActiveLink('/services') ? 'font-bold' : ''}`}>සේවාවන්</Link>
-          <Link to="/contact" className={`text-blue-600 py-2 block hover:text-gray-300 font-maname text-xl ${isActiveLink('/contact') ? 'font-bold' : ''}`}>සම්බන්ධතා</Link>
-          <Link to="/faq" className={`text-blue-600 py-2 block hover:text-gray-300 font-maname text-xl ${isActiveLink('/faq') ? 'font-bold' : ''}`}>ගැටළු</Link>
+          <Link to="/" className={`text-blue-900 py-2 block hover:text-gray-300 font-maname text-xl ${isActiveLink('/') ? 'font-bold' : ''}`}>වුඩ් ටෙක්</Link>
+          <Link to="/about" className={`text-blue-900 py-2 block hover:text-gray-300 font-maname text-xl ${isActiveLink('/about') ? 'font-bold' : ''}`}>විස්තර</Link>
+          <Link to="/services" className={`text-blue-900 py-2 block hover:text-gray-300 font-maname text-xl ${isActiveLink('/services') ? 'font-bold' : ''}`}>සේවාවන්</Link>
+          <Link to="/contact" className={`text-blue-900 py-2 block hover:text-gray-300 font-maname text-xl ${isActiveLink('/contact') ? 'font-bold' : ''}`}>සම්බන්ධතා</Link>
+          <Link to="/faq" className={`text-blue-900 py-2 block hover:text-gray-300 font-maname text-xl ${isActiveLink('/faq') ? 'font-bold' : ''}`}>ගැටළු</Link>
         </div>
       </div>
 
@@ -57,11 +57,11 @@ const Navbar = () => {
           <button onClick={toggleMenu} className="text-blue-600 mb-4" aria-label="Close menu">
             X
           </button>
-          <Link to="/" className={`text-blue-600 py-2 block hover:text-gray-300 font-maname text-xl ${isActiveLink('/') ? 'font-bold' : ''}`}>වුඩ් ටෙක්</Link>
-          <Link to="/about" className={`text-blue-600 py-2 block hover:text-gray-300 font-maname text-xl ${isActiveLink('/about') ? 'font-bold' : ''}`}>විස්තර</Link>
-          <Link to="/services" className={`text-blue-600 py-2 block hover:text-gray-300 font-maname text-xl ${isActiveLink('/services') ? 'font-bold' : ''}`}>සේවාවන්</Link>
-          <Link to="/contact" className={`text-blue-600 py-2 block hover:text-gray-300 font-maname text-xl ${isActiveLink('/contact') ? 'font-bold' : ''}`}>සම්බන්ධතා</Link>
-          <Link to="/faq" className={`text-blue-600 py-2 block hover:text-gray-300 font-maname text-xl ${isActiveLink('/faq') ? 'font-bold' : ''}`}>ගැටළු</Link>
+          <Link to="/" className={`text-blue-900 py-2 block hover:text-gray-300 font-maname text-xl ${isActiveLink('/') ? 'font-bold' : ''}`}>වුඩ් ටෙක්</Link>
+          <Link to="/about" className={`text-blue-900 py-2 block hover:text-gray-300 font-maname text-xl ${isActiveLink('/about') ? 'font-bold' : ''}`}>විස්තර</Link>
+          <Link to="/services" className={`text-blue-900 py-2 block hover:text-gray-300 font-maname text-xl ${isActiveLink('/services') ? 'font-bold' : ''}`}>සේවාවන්</Link>
+          <Link to="/contact" className={`text-blue-900 py-2 block hover:text-gray-300 font-maname text-xl ${isActiveLink('/contact') ? 'font-bold' : ''}`}>සම්බන්ධතා</Link>
+          <Link to="/faq" className={`text-blue-900 py-2 block hover:text-gray-300 font-maname text-xl ${isActiveLink('/faq') ? 'font-bold' : ''}`}>ගැටළු</Link>
         </div>
       </div>
     </nav>
