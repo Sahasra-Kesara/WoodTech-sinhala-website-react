@@ -55,7 +55,7 @@ const Navbar = () => {
       <div className={`fixed inset-0 bg-gray-800 bg-opacity-75 z-20 transition-transform duration-300 ease-in-out transform ${isOpen ? 'translate-x-0' : '-translate-x-full'}`}>
         <div className="absolute top-0 left-0 bg-white w-64 h-full shadow-lg p-4 transition-transform duration-300 ease-in-out">
           <button onClick={toggleMenu} className="text-blue-600 mb-4" aria-label="Close menu">
-            Close
+            X
           </button>
           <Link to="/" className={`text-blue-600 py-2 block hover:text-gray-300 font-maname text-xl ${isActiveLink('/') ? 'font-bold' : ''}`}>වුඩ් ටෙක්</Link>
           <Link to="/about" className={`text-blue-600 py-2 block hover:text-gray-300 font-maname text-xl ${isActiveLink('/about') ? 'font-bold' : ''}`}>විස්තර</Link>
