@@ -12,7 +12,7 @@ const Stats = () => {
     <div className="flex justify-around p-8">
   {stats.map((stat, index) => (
     <div key={index} className="text-center">
-      <h3 className="text-5xl font-bold text-blue-600 font-maname">
+      <h3 className="text-5xl font-bold text-blue-600 font-maname mb-4 p-2">
         <CountUp
           end={stat.value}
           duration={2} // Duration of the animation in seconds

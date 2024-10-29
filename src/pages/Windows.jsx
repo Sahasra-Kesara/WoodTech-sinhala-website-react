@@ -33,9 +33,9 @@ const WoodenDoors = () => {
   };
 
   return (
-    <div className="p-8">
+    <div className="p-8 mt-10">
       <div className="p-8">
-      <h2 className="text-3xl font-bold mb-4 font-maname text-center">ජනේල</h2>
+      <h2 className="text-4xl font-bold mb-4 font-maname text-center">ජනේල</h2>
       <p className='font-maname text-center'>
         බලශක්ති කාර්යක්ෂමතාව සහ ශෛලිය සපයන උසස් තත්ත්වයේ කවුළු, සියලු අවකාශයන්ට ගැලපෙන පරිදි සහ දර්ශනය වැඩි දියුණු කිරීම සඳහා අභිරුචි-සාදන ලදී.
       </p>

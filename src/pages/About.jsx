@@ -3,7 +3,7 @@ import { DragCloseDrawerExample } from '../components/DragCloseDrawer';
 
 const About = () => {
   return (
-    <section className="white">
+    <section className="white mt-10">
       <div className="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
           <div className="max-w-lg">

@@ -39,9 +39,9 @@ const WoodenDoors = () => {
   };
 
   return (
+    <div className="p-8 mt-10">
     <div className="p-8">
-    <div className="p-8">
-      <h2 className="text-3xl font-bold mb-4 text-center font-maname">ලී දොරවල්</h2>
+      <h2 className="text-4xl font-bold mb-4 text-center font-maname">ලී දොරවල්</h2>
       <p className="font-maname mb-8 text-center">
         අලංකාර හා කල් පවත්නා ලී දොරවල් පරිපූර්ණත්වයට සකස් කර ඇති අතර, ඕනෑම අභ්යන්තරයකට ගැලපෙන පරිදි විවිධ මෝස්තර සහ ද්රව්ය වලින් ලබා ගත හැකිය.
       </p>

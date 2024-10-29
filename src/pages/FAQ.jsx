@@ -31,8 +31,8 @@ const FAQ = () => {
   ];
 
   return (
-    <div className="p-8">
-      <h2 className="text-3xl font-bold text-center text-gray-800 mb-8 font-maname">නිතර අසනු ලබන ප්‍රශ්න</h2>
+    <div className="p-8 mt-10">
+      <h2 className="text-4xl font-bold text-center text-gray-800 mb-8 font-maname">නිතර අසනු ලබන ප්‍රශ්න</h2>
       <div className="max-w-2xl mx-auto space-y-4">
         {faqs.map((faq, index) => (
           <div

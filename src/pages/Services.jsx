@@ -42,8 +42,8 @@ const Services = () => {
   };
 
   return (
-    <section id="services" className="max-w-screen-xl mx-auto p-8">
-      <h2 className="text-3xl font-bold mb-6 text-center font-maname">අපගේ සේවාවන්</h2>
+    <section id="services" className="max-w-screen-xl mx-auto p-8 mt-10">
+      <h2 className="text-4xl font-bold mb-6 text-center font-maname">අපගේ සේවාවන්</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {services.map((service) => (
           <div key={service.name} className="rounded overflow-hidden flex flex-col max-w-xl mx-auto font-maname">

@@ -23,7 +23,7 @@ const WoodenDoors = () => {
   return (
     <div className="p-8">
       <div className="p-8">
-      <h2 className="text-3xl font-bold mb-4 text-center font-maname">වෙනත් සේවාවන්</h2>
+      <h2 className="text-4xl font-bold mb-4 text-center font-maname">වෙනත් සේවාවන්</h2>
       <p className='font-maname text-center'>
         ගෘහ භාණ්ඩ, කැබිනට් මණ්ඩලය සහ තවත් බොහෝ දේ ඇතුළුව ඔබේ පිරිවිතරයන්ට ගැලපෙන වෙනත් අභිරුචි වඩු වැඩ ව්යාපෘති.
       </p>

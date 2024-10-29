@@ -33,9 +33,9 @@ const WoodenDoors = () => {
   };
 
   return (
-    <div className="p-8">
+    <div className="p-8 mt-10">
       <div className="p-8">
-      <h2 className="text-3xl font-bold mb-4 font-maname text-center">පැන්ට්රි කබඩ්</h2>
+      <h2 className="text-4xl font-bold mb-4 font-maname text-center">පැන්ට්රි කබඩ්</h2>
       <p className='font-maname text-center'>
         ඔබේ මුළුතැන්ගෙයි අවශ්යතා සපුරාලීම සඳහා සකස් කරන ලද ප්රශස්ත ගබඩා කිරීම සහ සංවිධානය කිරීම සඳහා නිර්මාණය කර ඇති විලාසිතාමය හා ප්රායෝගික පැන්ට්රි කබඩ්.
       </p>
