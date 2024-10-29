@@ -43,7 +43,7 @@ const FAQ = () => {
               onClick={() => toggleFAQ(index)}
               className="flex justify-between items-center cursor-pointer"
             >
-              <h3 className="text-xl font-semibold text-indigo-800 font-maname">
+              <h3 className="text-xl font-semibold text-grey-300 font-maname">
                 {faq.question}
               </h3>
               <span className="text-gray-500 font-maname text-bold text-2xl">

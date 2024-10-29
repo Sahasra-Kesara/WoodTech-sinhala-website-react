@@ -13,6 +13,7 @@ import PantryCupboards from './pages/PantryCupboards';
 import Windows from './pages/Windows';
 import Other from './pages/Other';
 import Footer from './components/Footer';
+import WhatsAppButton from './components/WhatsAppButton';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
         </Routes>
       </div>
       <Footer/>
+      <WhatsAppButton/>
     </Router>
   );
 }
