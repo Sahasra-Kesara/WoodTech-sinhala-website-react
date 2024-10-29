@@ -10,7 +10,7 @@ const ShuffleHero = () => {
         <span className="block mb-4 text-xs md:text-sm text-indigo-500 font-medium font-maname">
           හොඳම තත්ත්වයේ
         </span>
-        <h3 className="text-4xl md:text-6xl font-semibold font-maname">
+        <h3 className="text-4xl md:text-6xl font-semibold font-maname text-indigo-950">
           තත්ත්ව නිර්මාණශීලීත්වය හමුවන තැන
         </h3>
         <p className="text-base md:text-lg text-slate-700 my-4 md:my-6 font-maname">
