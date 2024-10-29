@@ -11,7 +11,7 @@ const Footer = () => {
     <footer className="bg-gray-800 text-white py-8">
       <div className="container mx-auto flex flex-col lg:flex-row justify-between">
         {/* Services Column */}
-        <div className="flex flex-col mb-4">
+        <div className="flex flex-col mb-4 p-8">
           <h2 className="text-lg font-bold mb-2">සේවාවන්</h2>
           <Link to="/service/wooden-doors" className="text-gray-300 hover:text-gray-100 mb-1 font-maname">
             ලී දොරවල්
@@ -31,7 +31,7 @@ const Footer = () => {
         </div>
 
         {/* Navigation Column */}
-        <div className="flex flex-col mb-4">
+        <div className="flex flex-col mb-4 p-8">
           <Link to="/" className={`text-gray-300 hover:text-gray-100 mb-1 font-maname ${isActiveLink('/') ? 'font-bold' : ''}`}>
             වුඩ් ටෙක්
           </Link>
@@ -50,7 +50,7 @@ const Footer = () => {
         </div>
 
         {/* Contact Information Column */}
-        <div className="flex flex-col mb-4">
+        <div className="flex flex-col mb-4 p-8">
           <h2 className="text-lg font-bold mb-2">සම්බන්ධතා</h2>
           <div className="text-gray-300 mb-1 font-maname">
             <strong>ලිපිනය:</strong> 3/54 ශ්‍රී මේධානන්ද මාවත, ලක්ෂපතිය, මොරටුව. 10400
